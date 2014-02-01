@@ -1,0 +1,475 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DD3DB41B189D257F006D4591 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DD3DB41A189D257F006D4591 /* Foundation.framework */; };
+		DD3DB41D189D257F006D4591 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DD3DB41C189D257F006D4591 /* CoreGraphics.framework */; };
+		DD3DB41F189D257F006D4591 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DD3DB41E189D257F006D4591 /* UIKit.framework */; };
+		DD3DB425189D257F006D4591 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = DD3DB423189D257F006D4591 /* InfoPlist.strings */; };
+		DD3DB427189D257F006D4591 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DD3DB426189D257F006D4591 /* main.m */; };
+		DD3DB42B189D257F006D4591 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DD3DB42A189D257F006D4591 /* AppDelegate.m */; };
+		DD3DB42E189D257F006D4591 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DD3DB42C189D257F006D4591 /* Main.storyboard */; };
+		DD3DB431189D257F006D4591 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DD3DB430189D257F006D4591 /* ViewController.m */; };
+		DD3DB433189D257F006D4591 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DD3DB432189D257F006D4591 /* Images.xcassets */; };
+		DD3DB43A189D257F006D4591 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DD3DB439189D257F006D4591 /* XCTest.framework */; };
+		DD3DB43B189D257F006D4591 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DD3DB41A189D257F006D4591 /* Foundation.framework */; };
+		DD3DB43C189D257F006D4591 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DD3DB41E189D257F006D4591 /* UIKit.framework */; };
+		DD3DB444189D257F006D4591 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = DD3DB442189D257F006D4591 /* InfoPlist.strings */; };
+		DD3DB446189D257F006D4591 /* PongTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DD3DB445189D257F006D4591 /* PongTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DD3DB43D189D257F006D4591 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DD3DB40F189D257F006D4591 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DD3DB416189D257F006D4591;
+			remoteInfo = Pong;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DD3DB417189D257F006D4591 /* Pong.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Pong.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DD3DB41A189D257F006D4591 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		DD3DB41C189D257F006D4591 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		DD3DB41E189D257F006D4591 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		DD3DB422189D257F006D4591 /* Pong-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Pong-Info.plist"; sourceTree = "<group>"; };
+		DD3DB424189D257F006D4591 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		DD3DB426189D257F006D4591 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		DD3DB428189D257F006D4591 /* Pong-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Pong-Prefix.pch"; sourceTree = "<group>"; };
+		DD3DB429189D257F006D4591 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		DD3DB42A189D257F006D4591 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		DD3DB42D189D257F006D4591 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DD3DB42F189D257F006D4591 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		DD3DB430189D257F006D4591 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		DD3DB432189D257F006D4591 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		DD3DB438189D257F006D4591 /* PongTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PongTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DD3DB439189D257F006D4591 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		DD3DB441189D257F006D4591 /* PongTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PongTests-Info.plist"; sourceTree = "<group>"; };
+		DD3DB443189D257F006D4591 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		DD3DB445189D257F006D4591 /* PongTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PongTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DD3DB414189D257F006D4591 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD3DB41D189D257F006D4591 /* CoreGraphics.framework in Frameworks */,
+				DD3DB41F189D257F006D4591 /* UIKit.framework in Frameworks */,
+				DD3DB41B189D257F006D4591 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DD3DB435189D257F006D4591 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD3DB43A189D257F006D4591 /* XCTest.framework in Frameworks */,
+				DD3DB43C189D257F006D4591 /* UIKit.framework in Frameworks */,
+				DD3DB43B189D257F006D4591 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DD3DB40E189D257F006D4591 = {
+			isa = PBXGroup;
+			children = (
+				DD3DB420189D257F006D4591 /* Pong */,
+				DD3DB43F189D257F006D4591 /* PongTests */,
+				DD3DB419189D257F006D4591 /* Frameworks */,
+				DD3DB418189D257F006D4591 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DD3DB418189D257F006D4591 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DD3DB417189D257F006D4591 /* Pong.app */,
+				DD3DB438189D257F006D4591 /* PongTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DD3DB419189D257F006D4591 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DD3DB41A189D257F006D4591 /* Foundation.framework */,
+				DD3DB41C189D257F006D4591 /* CoreGraphics.framework */,
+				DD3DB41E189D257F006D4591 /* UIKit.framework */,
+				DD3DB439189D257F006D4591 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DD3DB420189D257F006D4591 /* Pong */ = {
+			isa = PBXGroup;
+			children = (
+				DD3DB429189D257F006D4591 /* AppDelegate.h */,
+				DD3DB42A189D257F006D4591 /* AppDelegate.m */,
+				DD3DB42C189D257F006D4591 /* Main.storyboard */,
+				DD3DB42F189D257F006D4591 /* ViewController.h */,
+				DD3DB430189D257F006D4591 /* ViewController.m */,
+				DD3DB432189D257F006D4591 /* Images.xcassets */,
+				DD3DB421189D257F006D4591 /* Supporting Files */,
+			);
+			path = Pong;
+			sourceTree = "<group>";
+		};
+		DD3DB421189D257F006D4591 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DD3DB422189D257F006D4591 /* Pong-Info.plist */,
+				DD3DB423189D257F006D4591 /* InfoPlist.strings */,
+				DD3DB426189D257F006D4591 /* main.m */,
+				DD3DB428189D257F006D4591 /* Pong-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DD3DB43F189D257F006D4591 /* PongTests */ = {
+			isa = PBXGroup;
+			children = (
+				DD3DB445189D257F006D4591 /* PongTests.m */,
+				DD3DB440189D257F006D4591 /* Supporting Files */,
+			);
+			path = PongTests;
+			sourceTree = "<group>";
+		};
+		DD3DB440189D257F006D4591 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DD3DB441189D257F006D4591 /* PongTests-Info.plist */,
+				DD3DB442189D257F006D4591 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DD3DB416189D257F006D4591 /* Pong */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DD3DB449189D257F006D4591 /* Build configuration list for PBXNativeTarget "Pong" */;
+			buildPhases = (
+				DD3DB413189D257F006D4591 /* Sources */,
+				DD3DB414189D257F006D4591 /* Frameworks */,
+				DD3DB415189D257F006D4591 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Pong;
+			productName = Pong;
+			productReference = DD3DB417189D257F006D4591 /* Pong.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DD3DB437189D257F006D4591 /* PongTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DD3DB44C189D257F006D4591 /* Build configuration list for PBXNativeTarget "PongTests" */;
+			buildPhases = (
+				DD3DB434189D257F006D4591 /* Sources */,
+				DD3DB435189D257F006D4591 /* Frameworks */,
+				DD3DB436189D257F006D4591 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DD3DB43E189D257F006D4591 /* PBXTargetDependency */,
+			);
+			name = PongTests;
+			productName = PongTests;
+			productReference = DD3DB438189D257F006D4591 /* PongTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DD3DB40F189D257F006D4591 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = "Carlos Santos";
+				TargetAttributes = {
+					DD3DB437189D257F006D4591 = {
+						TestTargetID = DD3DB416189D257F006D4591;
+					};
+				};
+			};
+			buildConfigurationList = DD3DB412189D257F006D4591 /* Build configuration list for PBXProject "Pong" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DD3DB40E189D257F006D4591;
+			productRefGroup = DD3DB418189D257F006D4591 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DD3DB416189D257F006D4591 /* Pong */,
+				DD3DB437189D257F006D4591 /* PongTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DD3DB415189D257F006D4591 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD3DB433189D257F006D4591 /* Images.xcassets in Resources */,
+				DD3DB425189D257F006D4591 /* InfoPlist.strings in Resources */,
+				DD3DB42E189D257F006D4591 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DD3DB436189D257F006D4591 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD3DB444189D257F006D4591 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DD3DB413189D257F006D4591 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD3DB431189D257F006D4591 /* ViewController.m in Sources */,
+				DD3DB42B189D257F006D4591 /* AppDelegate.m in Sources */,
+				DD3DB427189D257F006D4591 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DD3DB434189D257F006D4591 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD3DB446189D257F006D4591 /* PongTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DD3DB43E189D257F006D4591 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DD3DB416189D257F006D4591 /* Pong */;
+			targetProxy = DD3DB43D189D257F006D4591 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DD3DB423189D257F006D4591 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DD3DB424189D257F006D4591 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		DD3DB42C189D257F006D4591 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DD3DB42D189D257F006D4591 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DD3DB442189D257F006D4591 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DD3DB443189D257F006D4591 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DD3DB447189D257F006D4591 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		DD3DB448189D257F006D4591 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DD3DB44A189D257F006D4591 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Pong/Pong-Prefix.pch";
+				INFOPLIST_FILE = "Pong/Pong-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		DD3DB44B189D257F006D4591 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Pong/Pong-Prefix.pch";
+				INFOPLIST_FILE = "Pong/Pong-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		DD3DB44D189D257F006D4591 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Pong.app/Pong";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Pong/Pong-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "PongTests/PongTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		DD3DB44E189D257F006D4591 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Pong.app/Pong";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Pong/Pong-Prefix.pch";
+				INFOPLIST_FILE = "PongTests/PongTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DD3DB412189D257F006D4591 /* Build configuration list for PBXProject "Pong" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DD3DB447189D257F006D4591 /* Debug */,
+				DD3DB448189D257F006D4591 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DD3DB449189D257F006D4591 /* Build configuration list for PBXNativeTarget "Pong" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DD3DB44A189D257F006D4591 /* Debug */,
+				DD3DB44B189D257F006D4591 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		DD3DB44C189D257F006D4591 /* Build configuration list for PBXNativeTarget "PongTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DD3DB44D189D257F006D4591 /* Debug */,
+				DD3DB44E189D257F006D4591 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DD3DB40F189D257F006D4591 /* Project object */;
+}
